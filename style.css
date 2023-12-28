@@ -91,6 +91,7 @@ main .hero--section .title--wrapper p {
   font-weight: 400;
   line-height: 2rem;
   color: hsl(218, 20%, 36%);
+  text-align: start;
 }
 main .hero--section .hero-img--wrapper {
   margin: 2rem 0;
