@@ -19,7 +19,6 @@ ul {
 }
 
 body {
-  padding: 1rem;
   font-family: "Epilogue", sans-serif;
 }
 
@@ -50,6 +49,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 header .logo {
   width: 4.90088rem;
@@ -58,6 +58,17 @@ header .logo {
 
 main .hero--section {
   margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 8rem;
+}
+main .hero--section .line {
+  height: 1.1875rem;
+  width: 9.467rem;
+  align-self: flex-end;
+  margin-bottom: -1.5rem;
+  stroke-width: 2px;
 }
 main .hero--section .title--wrapper {
   display: flex;
@@ -71,6 +82,9 @@ main .hero--section .title--wrapper h1 {
   font-weight: 400;
   line-height: 2.75rem;
   letter-spacing: -0.033rem;
+}
+main .hero--section .title--wrapper h1 span {
+  font-weight: 700;
 }
 main .hero--section .title--wrapper p {
   font-size: 1.125rem;
@@ -115,5 +129,47 @@ main .hero--section .text--wrapper h2 span {
   font-weight: 400;
 }
 main .testimonials--section {
-  background: radial-gradient(141.42% 141.42% at 100% 100%, #a060ff 0%, #cb30e3 33.18%, #ffa84e 100%);
+  background: #172339;
+  color: #f3ede7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main .testimonials--person {
+  margin-top: -10rem;
+  padding: 1rem;
+  width: 15.75rem;
+  height: 25.125rem;
+}
+main .line {
+  width: 3.07925rem;
+  height: 2.5rem;
+}
+main h3 {
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+main h3 span {
+  font-weight: 700;
+}
+main p {
+  padding: 1rem;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  text-align: center;
+}
+main h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+main h4 span {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
 }/*# sourceMappingURL=style.css.map */
