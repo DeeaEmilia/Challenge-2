@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .hero-section .hero-img-wrapper .tablet-landscape--hero-img {
+  display: none;
+}
+main .hero-section .hero-img-wrapper .tablet-portrait--hero-img {
+  display: none;
+}
+main .hero-section .hero-img-wrapper .desktop--hero-img {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
