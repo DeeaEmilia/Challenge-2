@@ -100,10 +100,7 @@ main .hero--section .hero-img--wrapper .mobile--hero-img {
   width: 21.4375rem;
   height: 15rem;
 }
-main .hero--section .hero-img--wrapper .tablet-landscape--hero-img {
-  display: none;
-}
-main .hero--section .hero-img--wrapper .tablet-portrait--hero-img {
+main .hero--section .hero-img--wrapper .tablet--hero-img {
   display: none;
 }
 main .hero--section .hero-img--wrapper .desktop--hero-img {
