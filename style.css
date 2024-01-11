@@ -58,10 +58,14 @@ header .logo {
 
 main .hero--section {
   margin: 2rem 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   padding: 1rem;
   margin-bottom: 8rem;
+}
+@media screen and (min-width: 768px) {
+  main .hero--section {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 main .hero--section .line {
   height: 1.1875rem;
@@ -100,8 +104,18 @@ main .hero--section .hero-img--wrapper .mobile--hero-img {
   width: 21.4375rem;
   height: 15rem;
 }
+@media screen and (min-width: 768px) {
+  main .hero--section .hero-img--wrapper .mobile--hero-img {
+    display: none;
+  }
+}
 main .hero--section .hero-img--wrapper .tablet--hero-img {
   display: none;
+}
+@media screen and (min-width: 768px) {
+  main .hero--section .hero-img--wrapper .tablet--hero-img {
+    display: flex;
+  }
 }
 main .hero--section .hero-img--wrapper .desktop--hero-img {
   display: none;
@@ -111,6 +125,11 @@ main .hero--section .text--wrapper {
   flex-direction: column;
   gap: 2rem;
   margin: 2rem 0;
+}
+@media screen and (min-width: 768px) {
+  main .hero--section .text--wrapper {
+    grid-column: span 2;
+  }
 }
 main .hero--section .text--wrapper h2 {
   color: #172339;
